@@ -1,0 +1,17 @@
+PaddleOCR Conda Env Setup
+1) conda create -n amazon python=3.10
+2) conda activate amazon
+3) pip install pandas tqdm requests
+4) conda install cudatoolkit=11.7 -c conda-forge
+5) conda remove cudatoolkit=11.7
+6) conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
+7) python -m pip install paddlepaddle-gpu==2.5.1.post117 -f https://www.paddlepaddle.org.cn/whl/linux/mkl/avx/stable.html
+
+
+Amazon Conda Env Setup
+1) conda create -n amazon python=3.10
+2) conda activate amazon
+3) pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+4) pip install transformers pandas tqdm scikit-learn nltk fuzzywuzzy
+5) pip install kagglehub
+6) python -m nltk.downloader punkt

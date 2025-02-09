@@ -1,0 +1,10 @@
+paddlepaddle
+paddleocr
+paddlepaddle-gpu
+transformers 
+pandas 
+tqdm 
+scikit-learn 
+nltk 
+fuzzywuzzy
+kagglehub

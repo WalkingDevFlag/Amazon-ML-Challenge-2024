@@ -97,12 +97,5 @@ Amazon ML Challenge 2024/
 └── model/               # Saved BART models
 ```
 
-## Contributing
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/improvement`)
-3. Commit changes (`git commit -am 'Add new feature'`)
-4. Push to branch (`git push origin feature/improvement`)
-5. Open Pull Request
-
 ## License
 MIT License
